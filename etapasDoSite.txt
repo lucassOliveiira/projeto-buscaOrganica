@@ -1,0 +1,15 @@
+Etapas de tudo que fiz no site!!!!!!!!!!!!!!!
+
+1. O header eu fiz usando uma lista e deixando ela 'display: flex' para ficar alinhada.
+
+1.1. O efeito de hover nas <li> eu fiz usando ::after.
+
+1.2. A <li> Contato foi a mais chatinha de se fazer pelo fato dela ter esse background, tive que fazer com 'position: absolute' e ir alinhando a mesma.
+
+1.3. o efeito de scroll eu fiz dando um evento de 'scrollY' para a window e adicionando classes que criei no CSS.
+
+1.4. Já no responsivo, para fazer o menu hamburguer eu só fui modificando a <ul> com 'position: absolute' e centralizando ela. No Javscript eu adicionei a classe .active que criei para fazer o efeito no menu e descer a <ul>
+
+__________________________________________________________________________
+
+2. A primeira 'section' eu só fui posicionando ela com position: absolute dentro do banner
