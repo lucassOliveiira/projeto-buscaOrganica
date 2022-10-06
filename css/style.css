@@ -145,7 +145,6 @@ body::-webkit-scrollbar-thumb {
     }
     .nav a img{
         padding: 0 30px;
-        width: 230px;
     }
     .nav-list {
         flex-direction: column;
@@ -292,21 +291,18 @@ body::-webkit-scrollbar-thumb {
 }
 @media screen and (max-width: 1070px) {
     .container-section-one {
-        transform: translate(-50%, -180%);
+        transform: translate(-50%, -110%);
     }
     .container-section-one h1 {
-        font-size: 60px;
-    }
-    .btn-cta {
-        display: none;
+        font-size: 80px;
     }
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 905px) {
     .container-section-one {
-        transform: translate(-50%, -120%);
+        transform: translate(-50%, -150%);
     }
     .container-section-one h1 {
-        font-size: 40px;
+        font-size: 80px;
     }
     .container-section-one p {
         font-size: 12px;
@@ -315,9 +311,33 @@ body::-webkit-scrollbar-thumb {
         display: none;
     }
 }
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 700px) {
     .container-section-one {
-        transform: translate(-50%, -100%);
+        transform: translate(-50%, -140%);
+    }
+    .container-section-one h1 {
+        font-size: 60px;
+    }
+}
+@media screen and (max-width: 580px) {
+    .container-section-one {
+        transform: translate(-50%, -140%);
+    }
+    .container-section-one h1 {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 475px) {
+    .container-section-one {
+        transform: translate(-50%, -120%);
+    }
+    .container-section-one h1 {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .container-section-one {
+        transform: translate(-50%, -90%);
     }
     .container-section-one h1 {
         font-size: 30px;
