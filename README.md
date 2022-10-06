@@ -1,2 +1,2 @@
-# projeto-buscaOrganica
- Site clone feito a pedido da Busca Orgânica para um teste
+# Projeto Busca Orgânica
+ Site feito a pedido da Busca Orgânica para um teste
