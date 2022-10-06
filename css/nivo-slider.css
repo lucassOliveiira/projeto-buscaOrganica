@@ -70,7 +70,7 @@
 	display: block;
     width: 30px;
     height: 30px;
-    background: url(/images/arrows.png) no-repeat;
+    background: url(../images/arrows.png) no-repeat;
     text-indent: -9999px;
 }
 .nivo-nextNav {
@@ -78,7 +78,7 @@
 	display: block;
     width: 30px;
     height: 30px;
-    background: url(/images/arrows.png) no-repeat -30px;
+    background: url(../images/arrows.png) no-repeat -30px;
     text-indent: -9999px;
 }
 
