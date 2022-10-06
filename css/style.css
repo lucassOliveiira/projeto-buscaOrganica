@@ -140,6 +140,7 @@ body::-webkit-scrollbar-thumb {
         padding: 0 30px;
     }
     .nav {
+        z-index: 1000;
         display: flex;
         justify-content: space-between;
     }

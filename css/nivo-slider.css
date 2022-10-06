@@ -60,7 +60,7 @@
 
 /* Direction nav styles (e.g. Next & Prev) */
 .nivo-directionNav a {
-	position:absolute;
+	position: absolute;
 	top:45%;
 	z-index: 999;
 	cursor:pointer;
