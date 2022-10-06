@@ -112,11 +112,11 @@ body::-webkit-scrollbar-thumb {
     padding: 20px 25px;
     font-size: 14px;
     box-shadow: 4px 4px rgb(239, 74, 148);
+    transition: .5s all ease;
 }
 
 .nav-button:hover {
     background-color: var(--color-blue);
-    transition: .5s all ease;
 }
 
 /* MENU HAMBURGUER */
@@ -468,7 +468,7 @@ body::-webkit-scrollbar-thumb {
 .cards::after {
     content: '';
     position: absolute;
-    width: 8%;
+    width: 4%;
     height: 3px;
     border-radius: 2px;
     background-color: var(--color-blue);
@@ -572,13 +572,13 @@ body::-webkit-scrollbar-thumb {
     font-weight: 500;
     text-decoration: none;
     text-transform: uppercase;
+    transition: .5s all ease-out;
 }
 
 .container-contact-a a:hover {
     background-color: #fff;
     color: var(--black-2);
     font-weight: 500;
-    transition: .5s all ease;
 }
 
 @media screen and (max-width: 1145px) {
