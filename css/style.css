@@ -48,9 +48,12 @@ body::-webkit-scrollbar-thumb {
     transition: all .4s ease;
 }
 
-.nav h2 a {
-    text-decoration: none;
-    color: var(--black-0);
+.container-logo {
+    width: 180px;
+}
+
+.nav a img{
+    width: 100%;
 }
 
 .max {
@@ -131,7 +134,7 @@ body::-webkit-scrollbar-thumb {
     transition: all .4s ease-in-out;
 }   
 
-@media screen and (max-width: 890px){
+@media screen and (max-width: 1015px){
     .menu {
         display: block;
         padding: 0 30px;
@@ -140,8 +143,9 @@ body::-webkit-scrollbar-thumb {
         display: flex;
         justify-content: space-between;
     }
-    .nav h2 a {
+    .nav a img{
         padding: 0 30px;
+        width: 230px;
     }
     .nav-list {
         flex-direction: column;
