@@ -82,7 +82,7 @@
     text-indent: -9999px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
 	.nivo-directionNav a{
 		top: 60%;
 	}
