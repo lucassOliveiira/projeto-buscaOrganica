@@ -2,14 +2,34 @@ Etapas de tudo que fiz no site!!!!!!!!!!!!!!!
 
 1. O header eu fiz usando uma lista e deixando ela 'display: flex' para ficar alinhada.
 
-1.1. O efeito de hover nas <li> eu fiz usando ::after.
+1.1. O slider eu fiz usando o plugin nivo slider, o mesmo que vocês usaram no site de vocês
 
-1.2. A <li> Contato foi a mais chatinha de se fazer pelo fato dela ter esse background, tive que fazer com 'position: absolute' e ir alinhando a mesma.
+1.2. O efeito de hover nas <li> eu fiz usando ::after.
 
-1.3. o efeito de scroll eu fiz dando um evento de 'scrollY' para a window e adicionando classes que criei no CSS.
+1.3. A <li> Contato foi a mais chatinha de se fazer pelo fato dela ter esse background, tive que fazer com 'position: absolute' e ir alinhando a mesma.
 
-1.4. Já no responsivo, para fazer o menu hamburguer eu só fui modificando a <ul> com 'position: absolute' e centralizando ela. No Javscript eu adicionei a classe .active que criei para fazer o efeito no menu e descer a <ul>
+1.4. o efeito de scroll eu fiz dando um evento de 'scrollY' para a window e adicionando classes que criei no CSS.
+
+1.5. Já no responsivo, para fazer o menu hamburguer eu só fui modificando a <ul> com 'position: absolute' e centralizando ela. No Javscript eu adicionei a classe .active que criei para fazer o efeito no menu e descer a <ul>
 
 __________________________________________________________________________
 
-2. A primeira 'section' eu só fui posicionando ela com position: absolute dentro do banner
+2. A primeira 'section' eu só fui posicionando ela com position: absolute para ficar dentro do banner
+
+__________________________________________________________________________
+
+3. Os cards eu alinhei eles com 'display: flex' e no responsivo usei 'flex-direction: column' e diminui a width dos cards
+
+3.3 Abaixo dos cards eu criei a 'section contact' e alinhei com 'position: absolute' e dei uma width para o container. Já no responsivo eu deixei com uma width de 100% para pegar a tela inteira
+
+__________________________________________________________________________
+
+4. Nas imagens eu criei uma 'div box-images' e alinhei com 'display: flex' e no responsivo eu usei 'display: grid'
+
+__________________________________________________________________________
+
+5. No 'footer' eu deixei cada <div> com uma width de 25% e fui estilizando cada uma. E no responsivo usei 'display: grid'
+
+__________________________________________________________________________
+
+6. No 'footer-menu' eu criei uma lista e usei 'display: flex' para centraliza-la e dando uma width de 25%
